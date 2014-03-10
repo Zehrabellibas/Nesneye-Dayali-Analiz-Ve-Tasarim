@@ -1,0 +1,41 @@
+Use-Case 1:İnternetten Yemek Siparişi
+
+Scope: Müşterinin İnternetten Sipariş Vermesi
+
+Primary Actor: Müşteri
+
+Stakeholders and Interests:
+
+Müşteri: Kolay ve hızlı şekilde istenen yemeğin sipariş edilmesi
+
+Restorant: Müşteri memnuniyetini sağlayacak şekilde doğru siparişin ilgili müşteriye en hızlı şekilde gönderilmesi 
+
+Preconditions: Müşteri sisteme kayıtlı olmalıdır.
+
+Success Guarantee (or Postconditions): Sipariş restoranta iletilmiş olmalı
+
+Main Success Scenario:
+
+1.Müşteri müşteri numarası ve parolasıyla sisteme giriş yapar.
+
+2.Sistem girişi onaylar.
+
+3.Müşteri yeni sipariş işlemini başlatır.
+
+4.Sistem seçilebilecek yemek ve menülerin listesini gösterir.
+
+5.Müşteri istediği yemeği/menüyü seçer.
+
+6.Sistem toplam fiyatı gösterir.
+	Müşteri yemek seçimini bitirene kadar 5. ve 6. adımlar tekrarlanır.
+7.Müşteri siparişi onaylar.
+
+8.Sistem siparişi kaydedip restorana gönderir ve müşteriye işlemin başarılı olduğuna dair bilgiyi döner.
+
+Alternatif Senaryolar
+
+2a.Sistemin verilen müşteri numarası ve parolayla girişe izin vermemesi
+  1.Sistem giriş başarısız bilgisini döner.
+  2.Müşteri müşteri numarası ve parolasını tekrar, kontrol ederek girer.
+  3.Ana başarı senaryosunda 2.adımdan devam edilir.
+
