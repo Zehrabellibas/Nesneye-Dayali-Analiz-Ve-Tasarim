@@ -3,18 +3,19 @@
 
 
 
-Scope: Garsonun masa için toplan tutarı hesaplanması ve ödeme
+Scope: Garsonun masa için toplam tutarı hesaplanması ve ödeme
 
 Primary Actor: Müşteri
 
 
 Stakeholders and Interests:
 
-	Kasiyer: Masa hesabını müşterinin tercihi doğrultusunda nakit yada kartla tahsil eder.
+	Kasiyer: Masa hesabını müşterinin tercihi doğrultusunda nakit yada kartla hızlı ve sorunsuz bir şekilde tahsil etmek ister.
 	Müşteri: Ödemeyi hızlı ve sorunsuz yapmak ister.
-	Garson: Müşterinin oturduğu masanın hesabını sisteme girer.
+	Restoran: Hesabın doğru bir şekilde alınmasını ister.
 
 Precondition:  İlgili masanın hesabı garson tarafından sistem üzerinden kasiyere aktarılmış olmalıdır.
+Postcondition: Masa numarasına ait hesap vergileri ve indirimleri hesaplanmış olarak tahsil edilmiş olmalıdır.
 Success Guarantee (or Postconditions): İlgili tutar tahsil edilmiş olmalı.
 
 Main Success Scenario:
@@ -22,12 +23,12 @@ Main Success Scenario:
 1-Müşteri  hesap ödeme isteğiyle kasaya gelir
 2-Kasiyer  müşteriden masa numarasını alır
 3-Kasiyer sistemden masanın hesabını görüntüler
-4-Müşteri abone numarası varsa belirtir
+4-Sistem masa numarasıyla ilgili sipariş ve hesap bilgilerini gösterir.
 5-Kasiyer abone numarasını sisteme girer
-6-Sistem indirim uygulanmış tutarı görüntüler
-7-Müşteri nasıl ödeme yapacağını seçer
+6-Sistem hesaplanmış son tutarı görüntüler
+7-Kasiyer ödeme yöntemini sisteme girer.
 8-Kasiyer ilgili tutarı tahsil eder
-9-Müşteriye ödeme ile ilgili fiş teslim edilir.
+9-Sistem işlem ile ilgili hesap makbuzunu ekrana döner.
 
 
 Alternatif Senaryolar
@@ -36,7 +37,7 @@ Alternatif Senaryolar
 	1- Sistem yeniden başlatılır.
 	2- Kasa işletmecisi bilgileriyle tekrardan giriş yapar.
 
-1a- Eğer müşterinin abone numarası yoksa
+5a- Eğer müşterinin abone numarası yoksa
 	1- Müşteri abone olmadığını belirtir.
 	2- Kasiyer ilgili alana müşterinin abone olmadığı seçeneğini işaretler
-	3-Ana başarı senaryosunda 5.adımdan devam edilir.
+	3-Ana başarı senaryosunda 6.adımdan devam edilir.
