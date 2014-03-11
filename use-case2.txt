@@ -1,0 +1,43 @@
+Use Case UC2: Özel Menü ile Sipariþ Verilmesi
+
+Scope: Online sipariþte müþterinin özel menü hazýrlamasý
+Level: User-goal
+Primary Actor: Müþteri
+Stakeholders and Interests:.
+ -Müþteri: Menüsünü istediði gibi özelleþtirebilmeyi ister.
+ -Restoran: Müþteri memnuniyetine uygun bir þekilde sipariþin doðru ve sorunsuz bir þekilde alýnmasýný ister.
+Preconditions: Müþteri sistemde kayýtlý olmalýdýr.
+Postconditions: Sipariþ restorana ulaþmýþ olmalýdýr.
+Main Success Scenario
+
+1.Müþteri, müþteri numarasý ve parolasýyla sisteme giriþ yapar.
+2.Sistem müþterinin giriþini onaylar.
+3.Müþteri yeni sipariþ iþlemini baþlatýr.
+4.Sistem seçilebilecek yemek/menü listesini döner.
+5.Müþteri bir menü seçer.
+6.Sistem menünün ayrýntýlarýný seçer.
+7.Müþteri menüyü düzenleme iþlemini baþlatýr.
+8.Sistem düzenleme seçeneklerini açar.
+9.Müþteri menüde düzenleme yapar.
+10.Sistem düzenlemeyi kaydeder ve tutar hesaplamasý yapar.
+  Müþteri düzenlemesini bitirene kadar 9. ve 10. adýmlar tekrar eder.
+11.Müþteri düzenlediði menüyü kaydeder ve sipariþi onaylar.
+12.Sistem menüyü müþteri hesabýyla iliþkilendirerek kaydeder ve sipariþi restorana iletir.
+13.Sistem sipariþ baþarýlý mesajýný döner.
+
+Extensions
+
+    *a. Herhangi bir adýmda sistem baþarýsýz olursa
+
+     1. Müþteri sistemi yeniden baþlatýr, sisteme tekrar giriþ yapar ve sipariþin kaldýðý yerden devam etmesi komutunu verir.
+Sistem kaldýðý konuma geri döner.
+
+	 2a.Sistem sipariþin kaldýðý yere dönemediðinde
+
+              1.Sistem Müþteriye hata mesajý döndürür ve sipariþi sýfýrlar.
+
+Müþteri yeni bir sipariþ iþlemi baþlatýr.
+
+     2a. Sistem Müþteri giriþini onaylamadýðýnda
+
+       1.Müþteri müþteri numarasýný ve parolasýný kontrol ederek sisteme tekrar girer.
