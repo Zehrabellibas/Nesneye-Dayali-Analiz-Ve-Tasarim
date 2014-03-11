@@ -1,0 +1,42 @@
+					USE CASE 2
+					Hesap Ödeme
+
+
+
+Scope: Garsonun masa için toplan tutarı hesaplanması ve ödeme
+
+Primary Actor: Müşteri
+
+
+Stakeholders and Interests:
+
+	Kasiyer: Masa hesabını müşterinin tercihi doğrultusunda nakit yada kartla tahsil eder.
+	Müşteri: Ödemeyi hızlı ve sorunsuz yapmak ister.
+	Garson: Müşterinin oturduğu masanın hesabını sisteme girer.
+
+Precondition:  İlgili masanın hesabı garson tarafından sistem üzerinden kasiyere aktarılmış olmalıdır.
+Success Guarantee (or Postconditions): İlgili tutar tahsil edilmiş olmalı.
+
+Main Success Scenario:
+
+1-Müşteri  hesap ödeme isteğiyle kasaya gelir
+2-Kasiyer  müşteriden masa numarasını alır
+3-Kasiyer sistemden masanın hesabını görüntüler
+4-Müşteri abone numarası varsa belirtir
+5-Kasiyer abone numarasını sisteme girer
+6-Sistem indirim uygulanmış tutarı görüntüler
+7-Müşteri nasıl ödeme yapacağını seçer
+8-Kasiyer ilgili tutarı tahsil eder
+9-Müşteriye ödeme ile ilgili fiş teslim edilir.
+
+
+Alternatif Senaryolar
+
+*a- Sistem herhangi bir anda çökerse,
+	1- Sistem yeniden başlatılır.
+	2- Kasa işletmecisi bilgileriyle tekrardan giriş yapar.
+
+1a- Eğer müşterinin abone numarası yoksa
+	1- Müşteri abone olmadığını belirtir.
+	2- Kasiyer ilgili alana müşterinin abone olmadığı seçeneğini işaretler
+	3-Ana başarı senaryosunda 5.adımdan devam edilir.
