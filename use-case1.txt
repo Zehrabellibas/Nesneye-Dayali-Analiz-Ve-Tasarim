@@ -1,0 +1,39 @@
+Use Case UC1: Yemek Sipariþinin Alýnmasý
+
+Scope: Restorantta Sipariþ Alýnmasý
+Level: User-goal
+Primary Actor: Garson
+Stakeholders and Interests:
+ -Garson: Sistemin hýzlý ve hatasýz bir þekilde sipariþi girmesini ister.
+ -Müþteri: Sipariþin hýzlý ve doðru bir þekilde alýnmasýný ister.
+ -Restoran: Müþteri memnuniyetine uygun bir þekilde sipariþin doðru ve sorunsuz bir þekilde alýnmasýný ister.
+Preconditions: Garson sistemde kayýtlý olmalý ve sisteme giriþ yapmýþ olmalýdýr.
+Postconditions: Sipariþ mutfaktaki terminale yönlendirilmiþ olmalýdýr.
+Main Success Scenario
+
+1.Müþteri sipariþi vermek için garsonu çaðýrýr.
+2.Garson yeni sipariþ iþlemini konsoldan baþlatýr.
+3.Garson masa numarasýný konsola girer.
+4.Sistem girilebilecek yemek menüsünü gösterir.
+5.Garson istenen yemeði konsola girer.
+6.Sistem yemeði sipariþe kaydeder.
+  Müþterinin sipariþi bitene kadar 5. ve 6. adýmlar tekrar eder.
+7.Garson sipariþi onaylar.
+8.Sistem sipariþi kaydeder ve mutfak terminaline yönlendirir.
+
+Extensions
+
+    *a. Herhangi bir adýmda sistem baþarýsýz olursa
+
+     1.Garson sistemi yeniden baþlatýr, sisteme tekrar giriþ yapar ve sipariþin kaldýðý yerden devam etmesi komutunu verir.
+Sistem kaldýðý konuma geri döner.
+
+	 2a.Sistem sipariþin kaldýðý yere dönemediðinde
+
+              1.Sistem Garson'a hata mesajý döndürür ve konsolu sýfýrlar.
+
+Garson yeni bir sipariþ iþlemi baþlatýr.
+
+     5a. Müþteri yemeðin çýkarýlmasýný ister
+
+       1.Garson sipariþ ekranýndan istenen yemeði çýkarýr.
