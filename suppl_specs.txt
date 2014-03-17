@@ -1,0 +1,29 @@
+Supplementary Spesifications
+
+Fonksiyonellik
+
+Bütün hata raporları diske kaydedilir.
+Bütün işlemler kullanıcı yetkilendirmesini gerekir.
+
+Kullanılabilirlik
+
+Online işlemler için kullanıcıların bilgisayar kullanma yetkinlikleri farklı olacağı için sistem anlaşılır ve basit olmalıdır.
+Garsonun kullanacağı elektronik alette tasarım kompakt olup kullanım kolaylığı esas alınmalıdır.
+
+Sipariş verme süreci hızlı, kolay ve hata payı düşük olmalıdır.
+
+Güvenilirlik
+
+Kredi kartı bilgileri veritabanında açık olarak saklanmaz.
+Sistem veritabanına sadece sistem yöneticisinin erişimi bulunur.
+Eğer bir hata olursa senaryonun herhangi bir adımı geri döndürülebilirdir
+Sistemin isteklere haber verme süresi kısa olmalı
+
+Bakım
+
+Müşteri yönetimi kolay olmalı
+
+Uygulama Kısıtlamaları
+
+Online işlemlerde güvenlik önemli olduğu için müşterinin bilgisayarından sisteme giden veriler şifrelenmeli.
+Online müşteri kaydında iki aşamalı yetkilendirme kullanılması
