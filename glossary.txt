@@ -1,0 +1,5 @@
+Konsol -> Sistemin kurulu olduğu yer
+Abone -> Sistemdeki ayrıcalıklı müşteri
+Müşteri -> Sistemi online ortamda kullanan aktör
+Garson -> Sistemin esas işlemlerini kullanan aktör
+Yemek -> Satışta olan ürün ya da ürünler toplamı
