@@ -1,17 +1,40 @@
-
 Restorant Sistemi
 Vizyon
 
 
-Bu sistemde müsteriler online olarak ya da telefonla arayarak ya da restorantin içinde siparis verebilmektedir. Restorant müsterileri iki tipe ayrilir. Bir tip abone olmayan müsterilerdir. Digeri ise restoranti siklikla kullanan ve abone numarasina sahip müsterilerdir. Müsteriler belirli bir sürede tanimlanan belirli bir siparis sayisina ulastiklarinda abone olma hakki kazanir. Bu müsterilere isletme tarafindan abone numarasi verilerek bilgileri sisteme kaydedilir.
+Bu sistemde mï¿½steriler online olarak ya da telefonla arayarak ya da restorantin iï¿½inde siparis verebilmektedir.
+Restorant mï¿½sterileri iki tipe ayrilir. Bir tip abone olmayan mï¿½sterilerdir. 
+Digeri ise restoranti siklikla kullanan ve abone numarasina sahip mï¿½sterilerdir. 
+Mï¿½steriler belirli bir sï¿½rede tanimlanan belirli bir siparis sayisina ulastiklarinda abone olma hakki kazanir. 
+Bu mï¿½sterilere isletme tarafindan abone numarasi verilerek bilgileri sisteme kaydedilir.
 
  
-Sistemde abone olarak kayitli müsterilerin sonraki siparislerinde sadece abone numarasi üzerinden islem yapilir.  Örnegin telefonla arayip 285 numarali aboneye orta boy pizza menüsü isteyebilir, adres ve iletisim bilgisi belirtmesine gerek kalmaz. Ayrica bu müsterilere her siparislerinde belirli oranda indirim uygulanir. Bu indirim orani sisteme sistem yöneticisi tarafindan girilmistir. Örnegin; aylik 500 tl ve üstü siparis verenlere %20 indirim uygulanir.  Bu indirim hakkindan  isletmeyi telefonla arayarak siparislerde ya da isletmenin sitesi üzerinden online olarak verdigi siparislerde ve müsteri numarasi kullanilarak restoranin içinde yararlanilabilir ancak dis siparis aglarindan (yemeksepeti vb.) verilmis siparislerde bu indirimden faydalanilamaz. 
-Restorant içindeki siparislerde müsteri  garsona istedigi siparisi verir. Garson elinde bulunan küçük konsolda masa numarasini ve siparisi girerek onaylar. Verilen siparis masa numarasi ve siparisi alan garsonun idsi ile mutfaktaki terminale yönlendirilir. Burada masanin siparisi hazirlandiginda ilgili garsonun konsoluna uyari gönderilerek siparisi masaya götürmesi saglanir. Müsteri kasaya gidip masa numarasini söyleyerek ödenecek tutari sorar bu sirada eger abonelik numarasi varsa belirterek tanimlanmis indirimden yararlanir. Kasiyer masa numarasini sisteme girerek hesaplanmis son tutari müsteriye söyler. Müsteri nakit ya da kredi kartiyla ödeme yapabilmektedir.
+Sistemde abone olarak kayitli mï¿½sterilerin sonraki siparislerinde sadece abone numarasi ï¿½zerinden islem yapilir. 
+ï¿½rnegin telefonla arayip 285 numarali aboneye orta boy pizza menï¿½sï¿½ isteyebilir, adres ve iletisim bilgisi belirtmesine
+gerek kalmaz. Ayrica bu mï¿½sterilere her siparislerinde belirli oranda indirim uygulanir. 
+Bu indirim orani sisteme sistem yï¿½neticisi tarafindan girilmistir. 
+ï¿½rnegin; aylik 500 tl ve ï¿½stï¿½ siparis verenlere %20 indirim uygulanir.  
+Bu indirim hakkindan  isletmeyi telefonla arayarak siparislerde ya da isletmenin sitesi ï¿½zerinden online olarak verdigi 
+siparislerde ve mï¿½steri numarasi kullanilarak restoranin iï¿½inde yararlanilabilir ancak dis siparis aglarindan 
+(yemeksepeti vb.) verilmis siparislerde bu indirimden faydalanilamaz. 
+Restorant iï¿½indeki siparislerde mï¿½steri  garsona istedigi siparisi verir.
+Garson elinde bulunan kï¿½ï¿½ï¿½k konsolda masa numarasini ve siparisi girerek onaylar.
+Verilen siparis masa numarasi ve siparisi alan garsonun idsi ile mutfaktaki terminale yï¿½nlendirilir.
+Burada masanin siparisi hazirlandiginda ilgili garsonun konsoluna uyari gï¿½nderilerek siparisi masaya gï¿½tï¿½rmesi saglanir. 
+Mï¿½steri kasaya gidip masa numarasini sï¿½yleyerek ï¿½denecek tutari sorar bu sirada eger abonelik numarasi varsa belirterek 
+tanimlanmis indirimden yararlanir.
+Kasiyer masa numarasini sisteme girerek hesaplanmis son tutari mï¿½steriye sï¿½yler.
+Mï¿½steri nakit ya da kredi kartiyla ï¿½deme yapabilmektedir.
 
 
 
-Sistemde abone olan müsterilerin özel durumlari tanimlanabilir. Böylece herhangi bir hastaligi ve tercihi bulunan abonelerin siparisleri ona göre hazirlanir ve eger isterse kendisi için bu tip menü kayitlari olusturup sonraki siparislerinde kullanabilir . Örnegin; seker hastasi olan bir abonenin menüsünde bulunan tatli yerine siparisten belirli bir fiyat düsürülebilir ya da müsterinin istedigi esdeger fiyatli baska bir seçenek menüye eklenebilir. Harici eklemeler için ücret farki alinir. Sistemde tanimli olmayan müsteriler bu durumlari kendisi belirtmelidir.
+Sistemde abone olan mï¿½sterilerin ï¿½zel durumlari tanimlanabilir.
+Bï¿½ylece herhangi bir hastaligi ve tercihi bulunan abonelerin siparisleri ona gï¿½re hazirlanir ve eger isterse kendisi 
+iï¿½in bu tip menï¿½ kayitlari olusturup sonraki siparislerinde kullanabilir .
+ï¿½rnegin; seker hastasi olan bir abonenin menï¿½sï¿½nde bulunan tatli yerine siparisten belirli bir fiyat dï¿½sï¿½rï¿½lebilir
+ya da mï¿½sterinin istedigi esdeger fiyatli baska bir seï¿½enek menï¿½ye eklenebilir.
+Harici eklemeler iï¿½in ï¿½cret farki alinir. 
+Sistemde tanimli olmayan mï¿½steriler bu durumlari kendisi belirtmelidir.
 
 
 
