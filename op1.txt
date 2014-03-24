@@ -1,0 +1,32 @@
+Operation Contract: Yemek Siparişinin Alınması
+
+Contract 1: Yeni Sipariş
+Operation Name: yeniSiparis()
+Scope: Yeni Sipariş Oluşturma
+Precondition: Garson sistemde login olmuş olmalıdır.
+Post Conditions:
+	-siparis elementi oluşturulmuş olmalı
+
+Contract 2: Masa Numarası
+Operation Name: masaNumarasıGir(masaNumarası)
+Scope: Masa Numarasının Girilmesi
+Precondition: Yeni sipariş kaydı oluşturulmuş olmalıdır.
+Postcondition:
+	-masaNumarası elementi oluşturulmuş olmalı
+	-masaNumarası elementi girdiyle eşleştirilmiş olmalı
+	-siparis masaNumarasıyla bağlanmış olmalı
+
+Contract 3: Yemek Girişi
+Operation Name: yemekGir(yemek)
+Scope: Siparişe Yemek Girişi
+Precondition: Bir sipariş kaydı olmalı ve masa numarasıyla eşleştirilmiş olmalı
+Postcondition:
+	-yemek siparis elementine eklenmiş olmalı
+
+Contract 4: Sipariş Onayı
+Operation Name: siparisiOnayla(siparis)
+Scope: Siparişin Onaylanması
+Precondition: Siparişte en az bir yemek bulunmalı
+Postcondition:
+	-siparis terminale gönderilmiş olmalı
+	-siparisKaydıOnay elementi True olmalı
