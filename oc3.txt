@@ -1,0 +1,38 @@
+Operation Contract: Hesap Ödeme
+
+Contract 1: Hesap Ödeme
+Operation Name: hesapÖdeme(masaNumarası)
+Scope: Hesap Ödeme İşlemi
+Precondition: Kasiyer sistemde login olmuş olmalı
+Post Conditions:
+    -masaNumarası ilgili siparis ile ilişkilendirilmiş olmalı
+	-hesap elementi oluşturulmuş ve sipariş ile ilişkilendirilmiş olmalı
+
+Contract 2: Abone Numarası
+Operation Name: aboneNoGir(aboneNo)
+Scope: Abone Numarasını Sisteme Girme
+Precondition: Halihazırda siparis ile ilişkilendirilmiş hesap nesnesi bulunmalı
+Postcondition:
+	-aboneNo hesap ile ilişkilendirilmiş olmalı
+	-aboneNo'ya bağlı indirim tutarı hesap nesnesine uygulanmış olmalı
+	-sonTutar nesnesi oluşturulmuş olmalı
+	-sonTutar nesnesine değeri atanmış olmalı
+
+Contract 3: Ödeme Yöntemi
+Operation Name: odemeYontemiGir(yontem)
+Scope: Ödeme Yönetimini Sisteme Girme
+Precondition: sonTutar nesnesi sistemde bulunmalı
+Postcondition:
+	-odeme nesnesi oluşturulmuş olmalı
+	-odeme nesnesine yontem nesnesi atanmış olmalı
+	-odeme nesnesi uygun vergilendirmeye tabi tutulmuş olmalı
+	-odemeOnay nesnesi True olmalı
+
+Contract 4: Ödeme Onayı
+Operation Name: odemeOnayı(onay)
+Scope: Odeme Onayını Oluşturma
+Precondition: odemeOnay nesnesi True olmuş olmalı
+Postcondition:
+	-onay mesajı görüntülenmeli
+	-makbuz nesnesi oluşturulmalı
+	-makbuz nesnesine siparis, hesap, odeme nesneleri atanmış olmalı
