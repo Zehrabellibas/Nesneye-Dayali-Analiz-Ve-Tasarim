@@ -1,0 +1,52 @@
+
+
+
+Contract 1: Sisteme Giriş
+Operation Name: SistemeGirisİstegi()
+Scope: Sisteme giriş yapılması
+Precondition: Müşteri sisteme erişebiliyor olmalıdır.
+Post Conditions:
+	-Müşteri giriş yapacağı sayfaya ulaşmış olmalı.
+
+
+
+Contract 2: Giriş yapılması
+Operation Name: Girisyap()
+Scope: Sistemde login olma
+Precondition: Müşteri giriş bilgilerini biliyor olmalı
+Post Conditions:
+	-Müşteri sisteme kendi hesabı üzerinden giriş yapmış olmalı.
+
+Contract 3: Yeni Sipariş
+Operation Name: yeniSiparis()
+Scope: Yeni Sipariş Oluşturma
+Precondition: Müşteri sistemde login olmuş olmalıdır.
+Post Conditions:
+	-siparis elementi oluşturulmuş olmalı
+
+Contract 4: Urun Cikarma
+Operation Name: UrunCikar()
+Scope: Menüden ürün çıkarılması
+Precondition: Mevcut menülerden biri seçilmiş olmalıdır.
+Postcondition:
+	-Menü elementi oluşturulmuş olmalı
+	-Seçilen Menü elementi girdiyle eşleştirilmiş olmalı
+
+Contract 5: Urun Ekleme
+Operation Name: UrunEkle()
+Scope: Menüden ürün çıkarılması ve başka bir ürünün eklenmesi.
+Precondition: Mevcut menülerden biri seçilmiş olmalıdır.
+Postcondition:
+	-Menü elementi oluşturulmuş olmalı
+	-Seçilen Menü elementi girdiyle eşleştirilmiş olmalı
+
+
+Contract 6: Sipariş Onayı
+Operation Name: siparisiOnayla(siparis)
+Scope: Siparişin Onaylanması
+Precondition: Siparişte en az bir yemek bulunmalı
+Postcondition:
+	-siparis Sisteme gönderilmiş olmalı
+	-siparisKaydıOnay elementi True olmalı
+
+
