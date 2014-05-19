@@ -1,0 +1,23 @@
+Testler use-caselere ve operation contractlara bakılarak yapılacak. Buna göre;
+
+UC1 Testler
+
+testYeniSiparis
+testMasaNumarasıGirme
+testYemekGirişi
+testSiparisOnayı
+
+UC2 Testler
+
+testLogin
+testSiparisVer
+testUrunEkle
+testUrunCikar
+testSiparisTamamla
+
+UC3 Testler
+
+testHesapOdeme
+testAboneNoGir
+testOdemeYontemi
+testOdemeOnay
